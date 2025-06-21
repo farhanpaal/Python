@@ -40,4 +40,4 @@ And if you’re just getting started: keep going — progress compounds.
 —
 
 **Farhan Pala**  
-*Aspiring Developer | Lifelong Learner*
+*Developer in Progress · Big Ideas · Endless Curiosity*
