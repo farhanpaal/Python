@@ -5,4 +5,5 @@ run = "python3 pythonCode/second.py"
 channel = "stable-24_05"
 
 [deployment]
-run = "python3 $file"
+
+run = "python3 pythonCode/runner.py"
