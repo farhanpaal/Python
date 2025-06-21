@@ -6,4 +6,4 @@ channel = "stable-24_05"
 
 [deployment]
 
-run = "python3 pythonCode/runner.py"
+run = "python3 pythonCode/17_BmiCal.py"
