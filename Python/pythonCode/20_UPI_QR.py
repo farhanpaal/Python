@@ -92,6 +92,6 @@ quote_w = draw.textbbox((0, 0), quote, font=quote_font)[2]
 draw.text(((canvas_width - quote_w) // 2, header_height + qr_height + 40),
           quote, fill=(180, 220, 255), font=quote_font)
 
- 
+
 # === Save image ===
 bg.save("farhanPala.png")
