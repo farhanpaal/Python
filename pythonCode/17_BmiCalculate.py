@@ -23,6 +23,10 @@ def BMI():
   else:
     bmi= weight/(height*height)
     print(bmi)
+    if bmi<18.5 : print("You are Underweight")
+    elif bmi < 24.5 : print("You are Normal weight")
+    elif bmi < 29.9 : print("You are Overweight")
+    else: print("obese")
 BMI()
     
   
