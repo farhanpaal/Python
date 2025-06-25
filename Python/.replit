@@ -1,0 +1,9 @@
+modules = ["python-3.12"]
+run = "python3 pythonCode/second.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+
+run = "python3 pythonCode/17_BmiCal.py"
