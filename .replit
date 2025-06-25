@@ -7,3 +7,15 @@ channel = "stable-24_05"
 [deployment]
 
 run = "python3 pythonCode/17_BmiCal.py"
+
+[workflows]
+runButton = "Run Python Code"
+
+[[workflows.workflow]]
+name = "Run Python Code"
+author = 18026480
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 pythonCode/conditional.py"
