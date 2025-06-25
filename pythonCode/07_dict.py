@@ -3,9 +3,9 @@ from prettytable import PrettyTable
 def app():
     phone= PrettyTable()
     phone.field_names=["Name","class","row","payable"]
-    phone.add_row(["farhan",1,2])
-    phone.add_row(["Zahid",1,2])
-    phone.add_row(["Burhan",1,2])
+    phone.add_row(["farhan",1,2,100])
+    phone.add_row(["Zahid",1,2,150])
+    phone.add_row(["Burhan",1,2,120])
 
     print(phone)
     products=[
@@ -34,7 +34,6 @@ def app():
         "discount":10
     },
     ]
-    Amount(products)
     for product in products:
         print("Name: ",product["name"])
         print("Price: ",product["price"])
