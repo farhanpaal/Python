@@ -1,5 +1,5 @@
 """
-WAP that takes in a string and prints weather it contains a lower case letter,
+This program takes value in a string and prints weather it contains a lower case letter,
 upper case letter or both
 """
 

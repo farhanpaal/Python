@@ -1,7 +1,7 @@
 """ 
 QUESTION:
 ----------------------------
-WAP that takes in a person's age and checks if they are a child (0-12), teenager (13-19), young adult (20-39), middle-aged adult (40-59), or senior (60). Print an appropriate message for each group.
+This program takes a person's age and checks if they are a child (0-12), teenager (13-19), young adult (20-39), middle-aged adult (40-59), or senior (60). Print an appropriate message for each group.
 
 Algorithm:
 ------------------

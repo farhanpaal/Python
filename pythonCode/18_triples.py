@@ -1,5 +1,5 @@
 """"
-WAP that takes 3 numbers
+This program takes 3 numbers
 Checks if they are pythagoras triples. If they do ,
 Print "These numbers from pythagoras triple." If they don't,
 Print These numbers are not from pythagoras triple".

@@ -1,5 +1,5 @@
 """
-WAP that checks weather a number is prime or not
+This program checks weather a number is prime or not
 """
 
 from math import sqrt

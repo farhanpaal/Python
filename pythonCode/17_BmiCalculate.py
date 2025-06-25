@@ -1,5 +1,5 @@
 """
-WAP to calculate BMI
+This program calculates BMI
 ----------------------
 
 Algorithm:
