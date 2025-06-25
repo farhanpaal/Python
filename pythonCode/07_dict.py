@@ -1,6 +1,5 @@
-
-
 from prettytable import PrettyTable
+
 def app():
     phone= PrettyTable()
     phone.field_names=["Name","class","row","payable"]

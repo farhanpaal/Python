@@ -1,3 +1,6 @@
+from prettytable import PrettyTable
+
+
 def Amount(amount):
     price= amount["price"]
     currency= amount["currency"]
@@ -5,9 +8,9 @@ def Amount(amount):
     savedMoney= discount/100*price 
     return {
         "discount":savedMoney
+        
     } 
 
-from prettytable import PrettyTable
 def app():
     table= PrettyTable()
     table.field_names=["Name","Price","Discount","payable"]
