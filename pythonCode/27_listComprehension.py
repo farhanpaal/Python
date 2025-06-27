@@ -1,6 +1,10 @@
 """
 This program takes a list of strings and returns a new list with only the strings that contain the letter input by user, also it prints even numbers which come in the range(5)
 """
+
+# List comprehension is a concise way to create a new list by using a single line of code, combining a for-loop and optional condition.
+
+
 def check():
     words = ["pala", "farhan", "elegant1"]
     char = input("Enter the character: ")
