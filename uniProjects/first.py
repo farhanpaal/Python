@@ -17,10 +17,15 @@ def main():
   while a<len(list):
     si = (list[a][0]*list[a][1]*list[a][2])/100
     principal=list[a][0]
-    r=list[a][1]
+    rate_percent=list[a][1]
     t=list[a][2]
-    amount = pow((principal*(1+r/n)),n*t)
-    ci=amount-principal
+    
+    # Convert rate from percentage to decimal
+    r = rate_percent / 100
+    
+    # Correct compound interest formula: A = P(1 + r/n)^(nt)
+    amount = principal * pow((1 + r/n), n*t)
+    ci = amount - principal
     
     siList.append(si)
     ciList.append(ci)
