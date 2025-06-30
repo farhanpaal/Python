@@ -40,7 +40,7 @@ def main():
     principal=list[a][0]
     r=list[a][1]
     t=list[a][2]
-    amount = principal*pow(((1+r/100*n)),n*t)
+    amount = principal * pow((1 + r/(100*n)), n*t)
     ci=amount-principal
     
     siList.append(si)
