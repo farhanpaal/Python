@@ -24,22 +24,12 @@ def average():
   list=[]
   i=1
   while True:
-    user_input = input(f"Enter element no {i} -- [write \"done\" to close]: ")
-    if user_input.lower() == "done":
+    store=int(input(f"Enter element no {i} -- [write \"done\" to close]"))
+    if store.lower() == "done":
       break
-    try:
-      store = int(user_input)
-      list.append(store)
-      i+=1
-    except ValueError:
-      print("Invalid input! Please enter a number or 'done'.")
-  
-  if list:
-    avg = sum(list) / len(list)
-    print(f"Numbers: {list}")
-    print(f"Average: {avg:.2f}")
-  else:
-    print("No numbers entered!")
+    list.append(store)
+    i+=1
+  print(list)
 
   
   
