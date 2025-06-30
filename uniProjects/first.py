@@ -20,7 +20,7 @@ def main():
     r=list[a][1]
     t=list[a][2]
     amount = pow((principal*(1+r/n)),n*t)
-    ci=principal-amount
+    ci=amount-principal
     
     siList.append(si)
     ciList.append(ci)
