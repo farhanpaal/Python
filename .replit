@@ -3,13 +3,13 @@ run = "python3 pythonCode/second.py"
 
 [nix]
 channel = "stable-24_05"
+packages = ["hello", "fltk14"]
 
 [deployment]
 
 run = "python3 pythonCode/17_BmiCal.py"
 
 [workflows]
-runButton = "Run Python Code"
 
 [[workflows.workflow]]
 name = "Run Python Code"

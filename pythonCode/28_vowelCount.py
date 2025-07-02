@@ -20,14 +20,15 @@ This program takes a string and returns number of vowels in the string.
     
 # vowel()
 
+def vowelCount():
+  a=input("Enter your string: ")
+  vowel="aeiou"
+  vowelCount=0
+  voweltore=""
+  for i in a:
+    if i.lower() in vowel:
+      vowelCount+=1
+      voweltore+=(i+", ")
 
-def vowel():
-  vowels="aeiou"
-  string= input("Enter string: ")
-  store=0
-  for i in string:
-    if i.lower() in vowels:
-      store+=1
-  print(store)
-
-vowel()
+  print(f"There are {vowelCount} vowels and they are {voweltore}")
+vowelCount()
