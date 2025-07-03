@@ -2,6 +2,7 @@
 
 This program separates prime and composite numbers in two different lists from the one main list.
 2 methods are used here.
+---
 """
 
 import sympy  
