@@ -37,7 +37,12 @@ This repository is just the beginning. As I deepen my understanding and build mo
 If you're a learner like me, feel free to explore, fork, or suggest improvements.  
 And if you’re just getting started: keep going — progress compounds.
 
+## 📬 Contact Me
+
+If you have any questions or suggestions, feel free to [email me](mailto:farhan.12345.pala@gmail.com).
+
 —
 
 **Farhan Pala**  
 *Developer in Progress · Big Ideas · Endless Curiosity*
+
