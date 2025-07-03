@@ -1,13 +1,12 @@
 modules = ["python-3.12"]
-run = "python3 pythonCode/second.py"
+run = "python3 Python/pythonCode/second.py"
 
 [nix]
 channel = "stable-24_05"
 packages = ["hello", "fltk14"]
 
 [deployment]
-
-run = "python3 pythonCode/17_BmiCal.py"
+run = "python3 Python/pythonCode/17_BmiCal.py"
 
 [workflows]
 
@@ -18,4 +17,5 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python3 pythonCode/conditional.py"
+args = "python3 Python/pythonCode/conditional.py"
+
