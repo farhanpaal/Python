@@ -24,11 +24,11 @@ def vowelCount():
   a=input("Enter your string: ")
   vowel="aeiou"
   vowelCount=0
-  voweltore=""
+  vowelStore=""
   for i in a:
     if i.lower() in vowel:
       vowelCount+=1
-      voweltore+=(i+", ")
+      vowelStore+=(i+", ")
 
-  print(f"There are {vowelCount} vowels and they are {voweltore}")
+  print(f"There are {vowelCount} vowels and they are {vowelStore}")
 vowelCount()

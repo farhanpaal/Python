@@ -39,17 +39,18 @@ def prime3():
     primeNum= []
     compositeNum= []
     for i in a:
-      primeN=True
-      for j in range(2,i):
-        if i % j ==0:
-          primeN=False
-          break
+        if i > 1:
+          primeN=True
+          for j in range(2,i):
+            if i % j ==0:
+              primeN=False
+              break
+    
+          if primeN:
+            primeNum.append(i)
+          else:
+            compositeNum.append(i)
 
-      if primeN:
-        primeNum.append(i)
-      else:
-        compositeNum.append(i)
-
-    print(primeNum)
-    print(compositeNum)
+    print(f"Prime numbers: {primeNum}")
+    print(f"Prime numbers: {compositeNum}")
 prime3()

@@ -6,7 +6,7 @@ def secondLar():
   list = [23, 55, 76, 3]
   maxNum = max(list)
   
-  secondLar = 0
+  secondLar = list[0]
   for i in list:
     if i>secondLar and i<maxNum:
       secondLar=i
