@@ -27,7 +27,7 @@ def wordCount():
 
 
 """
-# this program filters out the element which starts with any specific alphabet
+This program filters out the element which starts with any specific alphabet
 """
 def startWith():
   string=["pala","and","shahid","ahsaan","rubait"]
@@ -37,7 +37,7 @@ def startWith():
       store.append(i)
   print(store)
 
-startWith()
+# startWith()
 
 
 
@@ -55,6 +55,5 @@ def leap():
       print(f"{year} is a leap year")
     else:
       print(f"{year} is not a leap year")
-
 
 leap()
