@@ -68,4 +68,9 @@ def shortMet():
     a=[22,34,555,67,22,56,78,22,22]
     for i in set(a): print(f"{i} appears {'even' if a.count(i)%2==0 else 'odd'} times")
 
-shortMet()
+# shortMet()
+
+def shortest():
+    arr=[34,56,34,34]; [print( f"{i} appeared {'even ' if arr.count(i)%2==0 else 'odd'} times") for i in sorted(set(arr))]
+ 
+shortest()
