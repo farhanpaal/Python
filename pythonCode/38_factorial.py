@@ -1,3 +1,9 @@
+"""
+This program finds the factorial of a number. Here two methods are used, 
+1) direct. 
+2) Recursive method.
+"""
+
 def facto():
   try:
     a=int(input("Enter number"))
@@ -18,7 +24,7 @@ def factoRecur():
     print(valErr)
   else:
     def fact(a):
-      if a ==0 or a==1:
+      if a ==0:
         return 1
       else:
         return fact(a-1) *a
