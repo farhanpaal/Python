@@ -1,26 +1,31 @@
 """
-NumPy is faster, but only when it matters (large data).
-For small data, Python's sum() can sometimes be slightly quicker due to lower overhead.
+This Python script demonstrates fundamental operations using NumPy, one of the most powerful libraries for numerical computing. It covers:
+
+- Creating and filtering NumPy arrays
+- Basic Statistical Operations with NumPy
+- check shape, log, sqrt, exp
+- Basic statistical computations (sum, mean, median, etc.)
+- Array reshaping, logarithmic and exponential functions
+- Random number generation with NumPy
+- Frequency count of randomly generated integers
+
+Each function in the script (num1 to num5) showcases a specific set of NumPy capabilities, making this code a useful reference or practice material for beginners learning NumPy.
 """
 
 import numpy as np
 
-"""
-➤ Q1: Create an array from 1 to 10 and print all even numbers.
-➤ Q2: Create a 3x3 matrix filled with 0s, then change the center to 9.
-➤ Q3: Multiply two 2D arrays of the same shape element-wise.
-
-"""
 def num1():
+
+    #➤ Q1: Create an array from 1 to 10 and print all even numbers.
     print("1---------------")
    
     arry = np.arange(1, 11) 
-
     even_arr = arry[arry % 2 == 0]  # 0 1 0 1 1 0 0 1 0 0 1 --> 1 1 1 1 1    # boolean masking or filtering
     print("Even numbers:", even_arr) 
 
     print("2---------------")
-    #2
+    
+    #➤ Q2: Create a 3x3 matrix filled with 0s, then change the center to 9.
     matric=np.zeros((3,3), dtype=int)
     matric[1,1]=9
     print(matric)
@@ -31,6 +36,8 @@ def num1():
 
     #3
     print("3---------------")
+    #➤ Q3: Multiply two 2D arrays of the same shape element-wise.
+
     TwodArr1=np.array([
         [1,2,3,4],
         [5,4,3,2]
@@ -41,7 +48,7 @@ def num1():
     ])
     print(TwodArr1*TwodArr2)
 
-# num1()/
+# num1()
 
 
 def num2():
