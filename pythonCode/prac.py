@@ -1,8 +1,2 @@
-a="farhan"
-b="farnah"
-
-for i in range(len(a)):
-  num= a[i]
-  
-  
-  
+import math
+print(math.sqrt(9))
