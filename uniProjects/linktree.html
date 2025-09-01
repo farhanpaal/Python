@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Tribe Social Links</title>
+    <link rel="shortcut icon" href="https://wisionx.com/wp-content/uploads/2025/08/variable-tribe.jpg"
+        type="image/x-icon">
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --secondary-color: #166088;
+            --accent-color: #4fc3f7;
+            --text-color: #333;
+            --light-bg: #f9f9f9;
+            --white: #ffffff;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--white);
+            box-shadow: var(--shadow);
+            margin-bottom: 15px;
+            transition: var(--transition);
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        .profile h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            color: var(--secondary-color);
+        }
+
+        .profile p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .link-item {
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .link-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+
+
+
+        .link-item:hover a {
+            color: var(--white);
+        }
+
+        .link-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            transition: var(--transition);
+        }
+
+        .link-item a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .social-icon:hover {
+            transform: translateY(-3px);
+            background-color: var(--primary-color);
+        }
+
+
+        .social-icon img {
+            width: 20px;
+            height: 20px;
+            transition: var(--transition);
+        }
+
+        footer {
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+            margin-top: auto;
+            padding: 20px 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .link-item {
+            animation: fadeIn 0.5s ease forwards;
+            opacity: 0;
+        }
+
+        .link-item:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .link-item:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .link-item:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .link-item:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .link-item:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+        .link-item:nth-child(6) {
+            animation-delay: 0.6s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img" id="profile-img">
+            <h1 id="username">Your Name</h1>
+            <p id="userbio">Digital Creator | Content Specialist</p>
+        </div>
+
+        <div class="links">
+            <div class="link-item">
+                <a href="https://youtube.com/@variabletribe" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="link-icon">
+                    YouTube Channel
+                </a>
+            </div>
+            <div class="link-item">
+                <a href="https://www.instagram.com/variabletribe/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"
+                        class="link-icon">
+                    Instagram Profile
+                </a>
+            </div>
+            <div class="link-item">
+                <a href="https://x.com/variabletribe" target="_blank">
+                    <img src="https://abs.twimg.com/favicons/twitter.3.ico" alt="Twitter" class="link-icon">
+                    Twitter Feed
+                </a>
+            </div>
+            <div class="link-item">
+                <a href="https://telegram.me/+0_z9Szm9jyQxNzVl" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Twitter" class="link-icon">
+                    Telegram community
+                </a>
+            </div>
+
+            <div class="link-item">
+                <a href="mailto:variabletribe@gmail.com" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="link-icon">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+
+        <div class="social-links">
+
+            <a href="https://open.spotify.com/user/31toffq2xsevz2mb6bzvtr4zovaa?si=bn51zgpxSyiuvm4b6eDUUw"
+                class="social-icon" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111624.png" alt="Spotify">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        © <span id="year"></span> All Rights Reserved
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // You can customize these with your actual information
+        const userData = {
+            name: "Variable Tribe",
+            bio: "A moment to change the world",
+            profileImage: "https://wisionx.com/wp-content/uploads/2025/08/variable-tribe.jpg"
+        };
+
+        // Update profile info
+        document.getElementById('username').textContent = userData.name;
+        document.getElementById('userbio').textContent = userData.bio;
+        document.getElementById('profile-img').src = userData.profileImage;
+
+        // Add click animation to links
+        const linkItems = document.querySelectorAll('.link-item');
+        linkItems.forEach(item => {
+            item.addEventListener('click', function () {
+                this.style.transform = 'scale(0.98)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 200);
+            });
+        });
+
+        // You can add more JavaScript functionality here
+        // For example, loading links from an API or JSON file
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1103 @@
+
+<!-- Your sales page content goes here -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description"
+        content="56 Lessons of Greatness - Transform your mindset, finances and future with these powerful lessons">
+    <meta name="keywords" content="self-improvement, success, mindset, financial freedom, personal growth">
+    <meta property="og:title" content="56 Lessons of Greatness - Transform Your Life">
+    <meta property="og:description"
+        content="56 Powerful Lessons That Will Transform Your Mindset, Finances, and Future">
+    <title>Lessons to Greatness - Transform Your Life in 56 Powerful Steps</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover a world of Summaries of ebooks, audiobooks, articles, blogs, and inspirational content at WisionX. Connect with a tribe of curious minds To explore and share knowledge And Elevate your thinking.">
+    <meta name="keywords"
+        content="ebooks, audiobooks, articles, blogs, inspirational content, self-help, motivation, free books, WisionX">
+    <meta name="author" content="Tactician and Variable">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.wisionx.com/">
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow">
+    <!-- 	opengraph -->
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title"
+        content="WisionX - Discover Vocabularies, Quotes, and Summaries of Renowned Ebooks and Audiobooks, Along with Inspirational Articles and Blogs">
+    <meta property="og:description"
+        content="Find Summaries of ebooks, audiobooks and Get Access to Motivational blogs, articles,Stay informed and join a tribe of like-minded thinkers on WisionX.">
+    <meta property="og:image" content="https://wisionx.com/wp-content/uploads/2025/05/cropped-logo1-copy-scaled-1.png">
+    <meta property="og:url" content="https://www.wisionx.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="WisionX">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="WisionX - Your Hub for Summaries of Renowned Ebooks, Audiobooks & Inspiration">
+    <meta name="twitter:description"
+        content="Explore a vast library of ebooks, audiobooks, articles, and join the WisionX tribe for daily inspiration.">
+    <meta name="twitter:image" content="https://wisionx.com/wp-content/uploads/2025/05/cropped-logo1-copy-scaled-1.png">
+    <meta name="twitter:site" content="@wisionx">
+
+    <!-- these are necessory base urls  -->
+    <!-- only print it if a Site Icon has been set -->
+    <link rel="icon" type="image/x-icon" href="https://wisionx.com/wp-content/uploads/2025/05/cropped-Picsart_25-05-06_20-31-46-5601-scaled-1.jpg">
+
+    <!-- 	remove site icon -->
+    <link rel="icon" type="image/x-icon"
+        href="https://wisionx.com/wp-content/uploads/2025/05/cropped-logo1-copy-scaled-1.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Segoe+UI&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://wisionx.com/wp-content/themes/Webassets/assets/css/SalesPage.css">
+	
+	<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1497902178301441');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1497902178301441&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P3N5S7R2');</script>
+<!-- End Google Tag Manager -->
+	
+</head>
+
+<body>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3N5S7R2"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+    <div id="toast-notifications"></div>
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="book">
+            <ul class="pages">
+                <li class="page">
+                    <svg viewBox="0 0 90 120" fill="currentColor">
+                        <path
+                            d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                        </path>
+                    </svg>
+                </li>
+                <li class="page">
+                    <svg viewBox="0 0 90 120" fill="currentColor">
+                        <path
+                            d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                        </path>
+                    </svg>
+                </li>
+                <li class="page">
+                    <svg viewBox="0 0 90 120" fill="currentColor">
+                        <path
+                            d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                        </path>
+                    </svg>
+                </li>
+                <li class="page">
+                    <svg viewBox="0 0 90 120" fill="currentColor">
+                        <path
+                            d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                        </path>
+                    </svg>
+                </li>
+                <li class="page">
+                    <svg viewBox="0 0 90 120" fill="currentColor">
+                        <path
+                            d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                        </path>
+                    </svg>
+                </li>
+                <li class="page">
+                    <svg viewBox="0 0 90 120" fill="currentColor">
+                        <path
+                            d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z">
+                        </path>
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge"><span>Variable Tribe's</span></div>
+                <h1>
+                    <span class="text-gradient">56 LESSONS</span><br />
+                    <span class="text-gradient">of GREATNESS</span>
+                </h1>
+                <p class="subtitle">This isn't an ordinary manual but a life — the result of years of self-improvement research That Will Transform Your Mindset, Finances, and Future </p>
+                <div class="hero-cta">
+                    <a href="#Purchase-cta" class="btn-primary pulse">
+                        <i class="fas fa-arrow-down" style="margin-right: 10px;"></i>Buy Now </a>
+                    <div class="hero-guarantee">
+                        <i class="fas fa-shield-alt"></i> 100% Satisfaction Guarantee
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://wisionx.com/wp-content/uploads/2025/08/56-lessons-of-greatness-book-cover-page.png" alt="56 Lessons to Greatness Book Cover" class="book-cover-image lazy"
+                    loading="lazy">
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#container" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </div>
+    <div class="container" id="container">
+<!-- Add this right after the hero section (before the "Problem & Solution" section) -->
+<!-- YouTube Video Section -->
+<section class="youtube-video fade-in">
+    <div class="container">
+        <h2>Watch The Video</h2>
+        <div class="video-wrapper">
+         <video autoplay controls class="video-container">
+    <source src="https://wisionx.com/wp-content/uploads/2025/08/sales-page-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+        </div>
+        <p class="video-caption">Watch this introduction to understand how these lessons transform lives</p>
+    </div>
+</section>
+        <!-- Problem & Solution -->
+        <div class="fade-in">
+            <h2>Why Most People Never Achieve True Success</h2>
+            <div class="flex-container">
+                <div class="col-half glass-card">
+                    <p> In today's world, <strong>mediocrity has become acceptable</strong>. Most people settle for
+                        "good enough" while watching others achieve greatness from the sidelines. </p>
+                    <p> The harsh truth? Success isn't random or reserved for the lucky few. It's built through
+                        <strong>specific principles, mindsets, and actions</strong> that anyone can learn, if they have
+                        the right guidance.
+                    </p>
+                    <p> After studying hundreds of high-achievers across different fields, I discovered that greatness
+                        follows predictable patterns that can be replicated by anyone willing to learn them. </p>
+                </div>
+                <div class="col-half glass-card">
+                    <p>
+                        <strong>This book is the result of that discovery.</strong> It's not theory or wishful
+                        thinking, it's 56 practical, actionable lessons that have created real transformation in people's
+                        lives.
+                    </p>
+                    <p> Whether you're struggling with focus, financial insecurity, lack of discipline, or simply feel
+                        stuck in your current situation, these lessons provide the exact framework needed to break
+                        through your limitations. </p>
+                    <div class="callout">
+                        <p>
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Key Insight:</strong> The difference between those who achieve greatness and those
+                            who don't comes down to <strong>applying the right knowledge consistently</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Author Section -->
+        <div class="author-section fade-in">
+            <div class="authors-img">
+
+                <img src="https://wisionx.com/wp-content/uploads/2025/05/variable-profile-300x300.webp" alt="Author Name" class="author-image lazy" loading="lazy">
+                <img src="https://secure.gravatar.com/avatar/f98ba907b8753765d69a88c4f95681d66d94e57b52a13c133d47193219ef5d34?s=500&d=mm&r=g"
+                    alt="Author Name" class="author-image lazy" loading="lazy">
+            </div>
+
+            <div class="author-bio">
+                <h2>About the Authors</h2>
+                <p> Variable and Tactician are not just authors, they are architects of transformation. Forged through
+                    years of relentless experimentation, inner battles, their journey is the blueprint behind this book.
+                    From humble beginnings to building systems that shape lives, they’ve guided thousands to break
+                    limitations and rise to greatness. </p>
+                <p> They didn’t just study success, they lived it. Every lesson in this book has been tested in the
+                    crucible of life, applied in the trenches, and proven through results. Their unique formula: learn
+                    with intensity, apply with precision, teach with purpose. </p>
+                <p> Backed by <strong>Variable Tribe</strong>, a private circle of seekers and achievers, this book is
+                    more than pages and words. It’s a mission. A movement. A mindset shift. Readers don’t just read it,
+                    they evolve through it. </p>
+                <p> Variable, a tech-driven tactician from the highlands of a vale, engineers intelligent systems that
+                    fuse behavior, discipline, and data. Tactician, his strategic counterpart, channels clarity, vision,
+                    and psychological insight into every concept. Together, they don’t just share lessons, they deliver
+                    a roadmap to a new identity. </p>
+                <!-- <p class="featured-in">Soon will be featured in:</p>
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <i class="fas fa-newspaper"></i> Forbes
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-tv"></i> CNN
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-microphone"></i> TEDx
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Table of Contents -->
+        <div class="toc-section fade-in">
+            <h2>What's Inside The Book</h2>
+            <p>Here's a preview of the powerful lessons you'll discover:</p>
+            <div class="toc-grid">
+                <div class="toc-item">
+                    <h3>Section 1: Mindset Mastery</h3>
+                    <ul>
+                        <li> The Power of Mindset</li>
+                        <li> The Battle Against Average</li>
+                        <li> The Power of Isolation</li>
+                        <li> Stay Humble, Stay Hungry</li>
+                    </ul>
+                </div>
+                <div class="toc-item">
+                    <h3>Section 2: Building Your Legacy</h3>
+                    <ul>
+                        <li> The Path of Kings: Building Your Own Legacy</li>
+                        <li> Your Reputation Is Your Legacy</li>
+                        <li> Leave the World Better Than You Found It</li>
+                        <li> Your Life Is Your Story, Make It Worth Reading</li>
+                    </ul>
+                </div>
+                <div class="toc-item">
+                    <h3>Section 3: Financial Freedom</h3>
+                    <ul>
+                        <li> Financial Independence</li>
+                        <li> Patience Is a Virtue (in Wealth Building)</li>
+                        <li> Confidence Comes from Competence</li>
+                        <li> Health Is Wealth (The Foundation for Financial & Personal Growth)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Features Section -->
+        <div class="fade-in">
+            <h2>What You'll Master Inside</h2>
+            <div class="flex-container features">
+                <div class="col-half">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Mindset Transformation</h3>
+                            <p> Reprogram your thinking patterns to eliminate self-sabotage and develop the psychology
+                                of elite performers. </p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Financial Independence</h3>
+                            <p> Learn wealth-building strategies and develop multiple income streams that create true
+                                freedom. </p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Unbreakable Discipline</h3>
+                            <p> Build habits and systems that make consistency automatic, even when motivation fades.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Mental Toughness</h3>
+                            <p> Develop resilience that turns obstacles into opportunities and setbacks into comebacks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-half">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Elite Work Ethic</h3>
+                            <p> Learn how to outwork, outlearn, and outperform the competition without burning out. </p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Leadership Mastery</h3>
+                            <p> Build the influence and authority to lead others and create impact beyond yourself. </p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-chess"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Strategic Success</h3>
+                            <p> Create a long-term vision and actionable plan to achieve your biggest goals in record
+                                time. </p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Peak Performance</h3>
+                            <p> Optimize your physical health and energy to perform at your highest potential every day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Reviews Section -->
+        <div class="fade-in">
+            <h2>What Our Readers Say</h2>
+            <div class="reviews">
+                <div class="review-container">
+                    <img src="https://wisionx.com/wp-content/uploads/2025/08/rev1-scaled.webp" alt="5-star review" class="review-image lazy" loading="lazy" />
+                </div>
+                <div class="review-container">
+                    <img src="https://wisionx.com/wp-content/uploads/2025/08/rev2-scaled.webp" alt="5-star review" class="review-image lazy" loading="lazy" />
+                </div>
+                <div class="review-container">
+                    <img src="https://wisionx.com/wp-content/uploads/2025/08/rev3-scaled.webp" alt="5-star review" class="review-image lazy" loading="lazy" />
+                </div>
+            </div>
+        </div>
+        <!-- CTA -->
+        <div class="fade-in">
+            <div class="cta-box">
+                <h2>This Isn't Just Another Self-Help Book</h2>
+                <p> Each of the 56 lessons is designed to be immediately actionable. No fluff, no filler, just proven
+                    strategies that work in the real world. </p>
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <i class="fas fa-lock"></i> Secure Payment
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-shield-alt"></i> Powered by variable Tribe
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-download"></i> Instant Delivery
+                    </div>
+                </div>
+                <div class="transform-btn">
+                    <a href="#Purchase-cta" class="btn-primary">
+                        <i class="fas fa-bolt"></i> TRANSFORM YOUR LIFE NOW </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- Bonus Section -->
+        <div class="fade-in">
+            <div class="bonus-section">
+                <h2 style="text-align: center"> Special Bonus: Success Acceleration Package </h2>
+                <p> Order today and you'll also receive these exclusive bonuses at no extra charge: </p>
+                <div class="flex-container">
+                    <div class="col-half">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Morning Mastery Routine</h3>
+                                <p> A step-by-step guide to optimize your first 90 minutes for maximum productivity and
+                                    focus. </p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Goal Achievement Workbook</h3>
+                                <p> The exact planning system used by high-performers to turn ambitious goals into
+                                    reality. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-half">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Audio Book</h3>
+                                <p> A complete audiobook to eliminate mental fog and enhance decision-making. </p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Private Community Access</h3>
+                                <p> Join our exclusive community of like-minded achievers. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Premium Pricing Section -->
+        <div id="pricing" class="fade-in">
+            <div class="pricing-container" id="Purchase-cta">
+                <div class="pricing-card">
+                    <!-- Decorative Elements -->
+                    <div class="corner-ribbon">LIMITED TIME</div>
+                    <div class="pricing-glow"></div>
+                    <!-- Header -->
+                    <div class="pricing-header">
+                        <h2>Premium Transformation Package</h2>
+                        <p class="subtitle">Everything you need to unlock your potential</p>
+                        <div class="value-badge">
+                            <i class="fas fa-crown"></i> MOST POPULAR
+                        </div>
+                    </div>
+                    <!-- Price Display -->
+                    <div class="price-display">
+                        <div class="price-amount">₹420 </div>
+                        <div class="price-context">
+                            <span class="original-price">₹1400</span>
+                            <span class="discount">70% OFF</span>
+                        </div>
+                        <div class="price-subtext">One-time payment • Lifetime access
+						<br>
+							This isn't just a manual — it's a way of life: Its Our three years of self-improvement research distilled into one guide.
+						</div>
+						
+                    </div>
+                    <!-- Feature List -->
+                    <div class="feature-list">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>56 Lessons eBook</h4>
+                                <p>PDF, ePub & Mobi formats</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-headphones"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Complete Audiobook</h4>
+                                <p>MP3 format, 8+ hours</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Workbook & Templates</h4>
+                                <p>Interactive exercises</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Private Community</h4>
+                                <p>Exclusive member access</p>
+                            </div>
+                        </div>
+                    </div>
+					<div>
+						<div id="fake-purchases"
+							 data-min="88"
+							 data-max="100"
+							 data-cap="100"
+							 class="fp-card" aria-live="polite">
+						  <div class="fp-left-col">
+							<div class="fp-badge">HOT</div>
+							<div class="fp-title">Special Launch Offer</div>
+							<div class="fp-numbers">
+							  <div class="fp-joined" title="people joined">
+								<span id="fp-joined" class="fp-num">--</span>
+								<div class="fp-label">people joined</div>
+							  </div>
+							  <div class="fp-divider">|</div>
+							  <div class="fp-left" title="spots left">
+								<span id="fp-left" class="fp-num">--</span>
+								<div class="fp-label">spots left</div>
+							  </div>
+							</div>
+						  </div>
+
+						  <div class="fp-right-col">
+							<div class="fp-msg" id="fp-msg">Hurry — limited seats!</div>
+							<a href="#buy" class="fp-cta">Claim 70% Off</a>
+						  </div>
+						</div>
+
+						<style>
+						  :root{
+							--fp-bg: linear-gradient(135deg,#ffffff, #f8fbff);
+							--fp-accent: linear-gradient(90deg,#6a8cff,#9b6aff);
+							--fp-text: #0b2136;
+							--fp-muted: #5b6b7a;
+							--fp-radius: 14px;
+							--fp-shadow: 0 10px 30px rgba(16,24,40,0.08);
+						  }
+
+						  .fp-card{
+							display:flex;
+							align-items:center;
+							justify-content:space-between;
+							gap:18px;
+							max-width:760px;
+							margin:12px auto;
+							padding:16px 20px;
+							background:var(--fp-bg);
+							border-radius:var(--fp-radius);
+							box-shadow:var(--fp-shadow);
+							border:1px solid rgba(15,38,70,0.04);
+							font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+						  }
+
+						  /* left column */
+						  .fp-left-col{ display:flex; flex-direction:column; gap:8px; min-width:0; }
+						  .fp-badge{
+							display:inline-block;
+							font-weight:700;
+							letter-spacing:0.6px;
+							font-size:12px;
+							padding:6px 8px;
+							border-radius:999px;
+							background:var(--fp-accent);
+							color:white;
+							width:fit-content;
+							box-shadow:0 6px 18px rgba(106,140,255,0.18);
+							transform-origin:center;
+							animation: badgePulse 2.6s infinite ease-in-out;
+						  }
+						  @keyframes badgePulse{
+							0%,100%{ transform:scale(1); opacity:1; }
+							50%{ transform:scale(1.06); opacity:0.92; }
+						  }
+
+						  .fp-title{ color:var(--fp-text); font-weight:700; font-size:15px; }
+						  .fp-numbers{ display:flex; align-items:center; gap:12px; margin-top:4px; }
+
+						  .fp-joined, .fp-left{
+							display:flex; flex-direction:column; align-items:flex-start; min-width:90px;
+						  }
+						  .fp-num{
+							font-size:34px;
+							font-weight:800;
+							line-height:1;
+							color:var(--fp-text);
+							letter-spacing:-0.5px;
+						  }
+						  .fp-label{
+							margin-top:3px;
+							font-size:12px;
+							color:var(--fp-muted);
+							font-weight:600;
+						  }
+						  .fp-divider{ color:rgba(11,33,54,0.06); font-weight:700; padding:0 6px; }
+
+						  /* right column */
+						  .fp-right-col{ display:flex; flex-direction:column; align-items:flex-end; gap:10px; }
+						  .fp-msg{ color:var(--fp-text); font-weight:700; font-size:13px; }
+						  .fp-cta{
+							display:inline-block;
+							text-decoration:none;
+							padding:8px 14px;
+							border-radius:10px;
+							background:var(--fp-accent);
+							color:#fff;
+							font-weight:700;
+							font-size:13px;
+							box-shadow: 0 8px 22px rgba(155,106,255,0.12);
+						  }
+
+						  /* small screens */
+						  @media (max-width:520px){
+							.fp-card{ flex-direction:column; align-items:flex-start; padding:14px; }
+							.fp-right-col{ align-self:stretch; width:100%; flex-direction:row; justify-content:space-between; }
+							.fp-numbers{ gap:8px; }
+							.fp-num{ font-size:28px; }
+						  }
+						</style>
+
+						<script>
+						(function(){
+						  // CONFIG
+						  const cookieName = 'fakePurchases_v3'; // Changed version to reset cookies
+						  const cookieDays = 1;
+						  const el = document.getElementById('fake-purchases');
+						  if (!el) return;
+
+						  // read data attrs
+						  const min = parseInt(el.dataset.min, 10) || 74;
+						  const max = parseInt(el.dataset.max, 10) || 98;
+						  const cap = parseInt(el.dataset.cap, 10) || 98;
+
+						  // cookie helpers
+						  function setCookie(name, value, days){
+							const d = new Date();
+							d.setTime(d.getTime() + (days*24*60*60*1000));
+							document.cookie = name + "=" + encodeURIComponent(value) + ";path=/;expires=" + d.toUTCString();
+						  }
+						  function getCookie(name){
+							const v = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+							return v ? decodeURIComponent(v.pop()) : null;
+						  }
+
+						  // get or create joined count
+						  let joined = parseInt(getCookie(cookieName), 10);
+
+						  if (!joined || joined < min || joined > max) {
+							// First visit - set random base between min and max
+							joined = Math.floor(Math.random() * (max - min + 1)) + min;
+							setCookie(cookieName, joined, cookieDays);
+						  } else {
+							// Subsequent visits - occasionally increase by 1-3 (33% chance)
+							if (joined < max && Math.random() < 0.33) {
+							  joined += Math.floor(Math.random() * 3) + 1;
+							  if (joined > max) joined = max;
+							  setCookie(cookieName, joined, cookieDays);
+							}
+						  }
+
+						  const left = Math.max(0, cap - joined);
+						  const joinedSpan = document.getElementById('fp-joined');
+						  const leftSpan = document.getElementById('fp-left');
+						  const msg = document.getElementById('fp-msg');
+
+						  // animate numbers
+						  function animateValue(elem, start, end, duration){
+							const range = end - start;
+							const startTime = performance.now();
+							if (!elem) return;
+							function step(now){
+							  const elapsed = now - startTime;
+							  const progress = Math.min(elapsed / duration, 1);
+							  const value = Math.floor(start + range * easeOutCubic(progress));
+							  elem.textContent = value;
+							  if (progress < 1) requestAnimationFrame(step);
+							  else elem.textContent = end;
+							}
+							requestAnimationFrame(step);
+						  }
+						  function easeOutCubic(t){ return 1 - Math.pow(1 - t, 3); }
+
+						  // dynamic messaging
+						  if (left === 0){
+							if (msg) msg.textContent = 'Offer nearly full — last chance!';
+						  } else if (left <= 5){
+							if (msg) msg.textContent = `Only ${left} spot${left>1?'s':''} left — hurry!`;
+						  } else {
+							if (msg) msg.textContent = 'Hurry — limited seats!';
+						  }
+
+						  // start animations
+						  animateValue(joinedSpan, 0, joined, 900);
+						  animateValue(leftSpan, 0, left, 900);
+
+						  // highlight effect
+						  setTimeout(()=> {
+							[joinedSpan, leftSpan].forEach(s=>{
+							  if (!s) return;
+							  s.style.transition = 'transform .45s ease, color .45s ease';
+							  s.style.transform = 'translateY(-4px)';
+							  s.style.color = '#253858';
+							  setTimeout(()=> {
+								s.style.transform = '';
+							  }, 450);
+							});
+						  }, 1100);
+
+						})();
+						</script>
+					</div>
+                    <!-- Enhanced CTA -->
+                    <div class="cta-container" >
+                        <a href="https://wisionx.com/cart/?add-to-cart=1742" class="premium-cta-btn">
+                            <span class="cta-main">
+                                <span class="cta-text">Purchase Now</span>
+                                <span class="cta-icon"><i class="fas fa-arrow-right"></i></span>
+                            </span>
+
+                        </a>
+                        <div class="guarantee-badge">
+                            <i class="fas fa-shield-alt"></i> Safe and secure transaction
+                        </div>
+                    </div>
+                    <!-- Payment Options -->
+                    <div class="payment-options">
+                        <div class="payment-icon"><i class="fab fa-cc-paypal"></i></div>
+                        <div class="payment-icon"><i class="fas fa-credit-card"></i></div>
+                        <div class="payment-icon"><i class="fas fa-university"></i></div>
+                        <div class="payment-icon"><i class="fab fa-google-pay"></i></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- FAQ -->
+
+
+        <div class="fade-in">
+            <h2>Frequently Asked Questions</h2>
+            <div class="sales-faq-accordion">
+                <!-- FAQ Item 1 -->
+                <div class="sales-faq-item">
+                    <button class="sales-faq-question" aria-expanded="false" aria-controls="faq1">
+                        <span class="sales-faq-question-text">How is this different from other self-improvement
+                            books?</span>
+                        <span class="sales-faq-icon">
+                            <svg class="sales-plus-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="currentColor" />
+                            </svg>
+                            <svg class="sales-minus-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M19 13H5V11H19V13Z" fill="currentColor" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="sales-faq-answer" id="faq1" hidden>
+                        <div class="sales-faq-answer-content">
+                            <p>Unlike most books that focus on theory, "Lessons to Greatness" provides 56 practical,
+                                step-by-step actionable lessons that can be implemented immediately. Each lesson is
+                                designed to create measurable results in your life, not just make you feel good
+                                temporarily.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="sales-faq-item">
+                    <button class="sales-faq-question" aria-expanded="false" aria-controls="faq2">
+                        <span class="sales-faq-question-text">How long will it take to see results?</span>
+                        <span class="sales-faq-icon">
+                            <svg class="sales-plus-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="currentColor" />
+                            </svg>
+                            <svg class="sales-minus-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M19 13H5V11H19V13Z" fill="currentColor" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="sales-faq-answer" id="faq2" hidden>
+                        <div class="sales-faq-answer-content">
+                            <p>Most readers report significant mindset shifts within the first week and tangible
+                                improvements in productivity and focus within 14-21 days. The financial strategies
+                                typically show results within 30-90 days when consistently applied.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="sales-faq-item">
+                    <button class="sales-faq-question" aria-expanded="false" aria-controls="faq3">
+                        <span class="sales-faq-question-text">Is this only for entrepreneurs or business people?</span>
+                        <span class="sales-faq-icon">
+                            <svg class="sales-plus-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="currentColor" />
+                            </svg>
+                            <svg class="sales-minus-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M19 13H5V11H19V13Z" fill="currentColor" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="sales-faq-answer" id="faq3" hidden>
+                        <div class="sales-faq-answer-content">
+                            <p>Absolutely not. While many entrepreneurs have found tremendous value in these lessons,
+                                they apply equally to professionals, students, artists, parents; anyone who wants to
+                                elevate their performance and results in any area of life.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="sales-faq-item">
+                    <button class="sales-faq-question" aria-expanded="false" aria-controls="faq4">
+                        <span class="sales-faq-question-text">What format does the book come in?</span>
+                        <span class="sales-faq-icon">
+                            <svg class="sales-plus-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="currentColor" />
+                            </svg>
+                            <svg class="sales-minus-icon" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M19 13H5V11H19V13Z" fill="currentColor" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="sales-faq-answer" id="faq4" hidden>
+                        <div class="sales-faq-answer-content">
+                            <p>You'll receive instant access to both the digital PDF version and the audiobook version
+                                (MP3 format) that can be read/listened to on any device. The bonus materials are
+                                delivered in your member area immediately after purchase.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Final CTA -->
+        <div class="fade-in">
+            <div class="cta-box">
+                <h2>Make Today The Turning Point</h2>
+                <p> One year from now, you can be in exactly the same place you are today, or you can be living at a
+                    completely new level of success, fulfillment, and achievement. </p>
+                <p> The difference comes down to the decisions you make today and the proven strategies you follow. </p>
+                <p><strong>The choice is yours.</strong></p>
+                <!-- <div class="countdown" id="final-countdown">
+                    <i class="fas fa-clock"></i> Offer ends in: <span id="final-timer">30:00</span>
+                </div> -->
+                <div class="transform-btn">
+                    <a href="#Purchase-cta" class="btn-primary">
+                        <i class="fas fa-star"></i> YES, I'M READY FOR GREATNESS </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="newsletter">
+        <div class="container">
+            <div class="newsletter-container fade-in">
+                <div class="newsletter-content">
+                    <h3 class="newsletter-title">Join Our Community</h3>
+                    <p class="newsletter-description">
+                        To receive exclusive Free content Releated to , Get weekly recommendations and exclusive content
+                        straight to your inbox
+                    </p>
+
+                    <!-- Toast Script -->
+                    
+                    <form id="newsletter-form" class="newsletter-form" method="post"
+                        action="https://wisionx.com/wp-admin/admin-post.php">
+                        <input type="hidden" id="newsletter_nonce" name="newsletter_nonce" value="dd3850b05f" /><input type="hidden" name="_wp_http_referer" value="/56-lessons-of-greatness/" />                        <input type="hidden" name="action" value="newsletter_submission">
+
+                        <div class="form-group">
+                            <input type="email" name="newsletter_email" id="newsletter-email" class="newsletter-input"
+                                placeholder="Your email address" required />
+                            <span id="email-error" class="validation-error" style="color:red;display:none;"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="newsletter_name" class="newsletter-input"
+                                placeholder="Your name (optional)" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" name="newsletter_phone" id="newsletter-phone" class="newsletter-input"
+                                placeholder="Phone number (optional)" />
+                            <span id="phone-error" class="validation-error"
+                                style="color:white;display:none;margin: 12px;"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary newsletter-btn">Subscribe</button>
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+<footer class="sales-footer-horizontal">
+  <div class="footer-container-horizontal">
+    <div class="footer-links-horizontal">
+      <a href="https://wisionx.com/dmca/" target="_blank">DMCA Policy</a>
+      <a href="https://wisionx.com/terms-and-conditions/" target="_blank">Terms & Conditions</a>
+      <a href="https://wisionx.com/refund_returns/" target="_blank">Refund & Returns</a>
+      <a href="https://wisionx.com/privacy-policy/" target="_blank">Privacy Policy</a>
+      <a href="https://wisionx.com/contact-us/" target="_blank">Contact Us</a>
+      <a href="https://wisionx.com/disclaimer/" target="_blank">Disclaimer</a>
+    </div>
+    <div class="footer-copy-horizontal">
+      © 2021 - 2025 <a href="https://wisionx.com" target="_blank" style="color: #6366f1; text-decoration: none;">WisionX</a>
+. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+
+
+    <button id="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script>
+    // Loading animation
+    window.addEventListener('load', function() {
+        const loader = document.querySelector('.loader');
+        setTimeout(() => {
+            loader.classList.add('hidden');
+        }, 500);
+    });
+    // Scroll to top button
+    const scrollTopBtn = document.getElementById("scrollTop");
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+            scrollTopBtn.style.display = "flex";
+        } else {
+            scrollTopBtn.style.display = "none";
+        }
+    });
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+
+    // Intersection Observer for fade-in animations
+    const fadeElements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, {
+            threshold: 0.1,
+        });
+    fadeElements.forEach((element) => {
+        observer.observe(element);
+    });
+    // Lazy loading images
+    if ('loading' in HTMLImageElement.prototype) {
+        const lazyImages = document.querySelectorAll('img.lazy');
+        lazyImages.forEach(img => {
+            img.src = img.getAttribute("src");
+            img.classList.add('loaded');
+        });
+    } else {
+        // Fallback for browsers that don't support lazy loading
+        const lazyLoad = function() {
+            const lazyImages = document.querySelectorAll('img.lazy');
+            lazyImages.forEach(img => {
+                if (img.getBoundingClientRect().top < window.innerHeight && img.getBoundingClientRect()
+                    .bottom > 0) {
+                    img.src = img.dataset.src;
+                    img.classList.add('loaded');
+                }
+            });
+        };
+        document.addEventListener('scroll', lazyLoad);
+        window.addEventListener('resize', lazyLoad);
+        window.addEventListener('orientationchange', lazyLoad);
+        lazyLoad(); // Initial check
+    }
+
+    if (document.querySelector(".newsletter")) {
+        function showToast(message, duration = 5000) {
+            const container = document.getElementById("toast-notifications");
+            if (!container) return;
+            const toast = document.createElement("div");
+            toast.className = "toast";
+            toast.textContent = message;
+            container.appendChild(toast);
+            // trigger animation
+            setTimeout(() => toast.classList.add("show"), 50);
+            // remove after timeout
+            setTimeout(() => {
+                toast.classList.remove("show");
+                setTimeout(() => container.removeChild(toast), 300);
+            }, duration);
+        }
+    }
+
+    // Enhanced FAQ Accordion JavaScript
+    document.addEventListener('DOMContentLoaded', function() {
+        const faqQuestions = document.querySelectorAll('.sales-faq-question');
+
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = document.getElementById(question.getAttribute('aria-controls'));
+                const isExpanded = question.getAttribute('aria-expanded') === 'true';
+
+                // Close all other FAQs
+                if (!isExpanded) {
+                    faqQuestions.forEach(q => {
+                        if (q !== question && q.getAttribute('aria-expanded') ===
+                            'true') {
+                            const otherAnswer = document.getElementById(q.getAttribute(
+                                'aria-controls'));
+                            q.setAttribute('aria-expanded', 'false');
+                            otherAnswer.style.height = '0';
+                            otherAnswer.style.opacity = '0';
+                            setTimeout(() => {
+                                otherAnswer.hidden = true;
+                            }, 300);
+                        }
+                    });
+                }
+
+                // Toggle current FAQ
+                question.setAttribute('aria-expanded', !isExpanded);
+
+                if (!isExpanded) {
+                    answer.hidden = false;
+                    // Trigger reflow to enable transition
+                    void answer.offsetHeight;
+                    answer.style.height = answer.scrollHeight + 'px';
+                    answer.style.opacity = '1';
+                } else {
+                    answer.style.height = '0';
+                    answer.style.opacity = '0';
+                    setTimeout(() => {
+                        answer.hidden = true;
+                    }, 300);
+                }
+            });
+
+            // Keyboard accessibility
+            question.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    question.click();
+                }
+            });
+        });
+    });
+
+// Set the end time (3 days from now)
+
+    </script>
+</body>
+
+</html>
+
+<!-- Your sales page content goes here -->
