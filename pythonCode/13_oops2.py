@@ -17,39 +17,39 @@ main.pala()
 # 123
 # 122
 
-from pprint import pprint
+# from pprint import pprint
 
-class Country:
-    def __init__(self):
-        self.countries=[
-            {
-                "Country":"India",
-                "Short":"IN",
-                "Code":"91"
-            },
-            {
-                "Country":"Pakistan",
-                "Short":"PAK",
-                "Code":"92"
-            },
-            {
-                "Country":"Nepal",
-                "Short":"NEP",
-                "Code":"977"
-            }
-        ]
-
-#OOPs doesnt recomend this, it recommends inheritance 
-# class Access:
+# class Country:
 #     def __init__(self):
-#         Nation= Country()
-#         pprint(Nation.countries)
+#         self.countries=[
+#             {
+#                 "Country":"India",
+#                 "Short":"IN",
+#                 "Code":"91"
+#             },
+#             {
+#                 "Country":"Pakistan",
+#                 "Short":"PAK",
+#                 "Code":"92"
+#             },
+#             {
+#                 "Country":"Nepal",
+#                 "Short":"NEP",
+#                 "Code":"977"
+#             }
+#         ]
+
+# #OOPs doesnt recomend this, it recommends inheritance 
+# # class Access:
+# #     def __init__(self):
+# #         Nation= Country()
+# #         pprint(Nation.countries)
 
 
 
-#This isn't possible in constructor function
-class Access(Country):
-    def getCountries(self):
-        pprint(self.countries)
-country=Access()
-country.getCountries()
+# #This isn't possible in constructor function
+# class Access(Country):
+#     def getCountries(self):
+#         pprint(self.countries)
+# country=Access()
+# country.getCountries()

@@ -1,9 +1,13 @@
 class Asc:
-    def __init__(self, stack):
-        self.stack= stack #instance variable
+    def __init__(self,stack):
+        self.stack=stack
     def sort(self):
-        tmp=[]# it is local variable, not instance, because i dont' have to use it any where else
-        return self.stack
-    
-asc= Asc([55,60,12,66,78]) #instance
+        tmp=[]
+        while len(self.stack)!=0:
+            top=self.stack.pop()
+            while len(tmp) !=0 and tmp[-1]>top:
+                self.stack.append(tmp.pop())
+            tmp.append(top)
+        return tmp
+asc=Asc([12,22,34])
 print(asc.sort())
