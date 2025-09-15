@@ -1,23 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'layout.html' %}
+{% block title %}
+<title>Home</title>
+{% endblock %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+{% block css %}
+<link href="static/css/index.css" rel="stylesheet">
+{% endblock %}
 
-<body>
-    {% if value >= 5000 %}
-    <h1> Crazy love with status {{loveStatus}}</h1>
-    {% else %}
-    <h1> I love you variable {{loveStatus}}</h1>
+{% block js %}
+<script src="static/js/index.js"></script>
+{% endblock %}
 
-    {% endif %}
-
-    {% for i in menus%}
-    <h1>{{i}}</h1>
-    {% endfor %}
-</body>
-
-</html>
+{% block main %}
+<h1>This is home page</h1>
+<button class="btn btn-danger">Enroll Now</button>
+{% endblock %}
