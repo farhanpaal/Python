@@ -11,7 +11,7 @@ def Contact(request):
         name= request.POST.get('name')
         email=request.POST.get('email')
         message=request.POST.get('message')
-        res=SendMail("enquiry from " + name, message, ['farhan.12345.pala@gmail.com'])
+        res=SendMail("enquiry from " + name, message, ['ethical.pala.cyber@gmail.com'])
         print(res)
     return render(request, 'contact.html')
 

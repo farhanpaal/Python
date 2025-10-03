@@ -9,11 +9,12 @@ def SendMail(subject, message, recipient):
             from_email=settings.EMAIL_HOST_USER,
             recipient_list=recipient
         )
-        return{
+        return {
             'success': True
         }
-    except:
-        return{
+    except Exception as e:
+        print("Email error:", e)  # Add this line to see the error in your console
+        return {
             'success': False,
-            'message': 'Failed to send email'
+            'message': f'Failed to send email: {e}'
         }
