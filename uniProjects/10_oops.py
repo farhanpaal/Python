@@ -7,7 +7,7 @@ class Customer:
     #setter
     def setterFunc(self,newName):
         self.__name=newName
-
+ 
     # getter
     def getterFunc(self):
         print(self.__name)

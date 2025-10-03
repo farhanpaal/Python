@@ -15,31 +15,38 @@
   
 
 
-# class Admin:
-#     def __init__(self):
-#         self.__name="pala"
-#         self.__password="@123"
-#         self. __sem=1
-#     def adminName(self):
-#        return self.name
-# admin=Admin()
-# admin.__name= 'dsfsd'
-# print(admin.adminName())
+class Admin:
 
-
-
-class Main:
-    def __init__(self):
-        self.name="pala"
-        self.__password="@123"
-        self.sem=1
+    #getter
+    def adminName(self):
+       return self.__name
     
-    def read(self):
-        return self.__password
+    #setter
+    def setterFunc(self, setter):
+        self.__name=setter
+
+    def __init__(self):
+        self.__name="pala"
+        self.__password="@123"
+        self. __sem=1
+admin=Admin()
+admin.setterFunc('dsfsd')  
+print(admin.adminName())
+
+
+
+# class Main:
+#     def __init__(self):
+#         self.name="pala"
+#         self.__password="@123"
+#         self.sem=1
+    
+#     def read(self):
+#         return self.__password
  
-admin=Main()
-print(admin.name)
-print(admin.read())
-print(admin.sem)
+# admin=Main()
+# print(admin.name)
+# print(admin.read())
+# print(admin.sem)
   
 

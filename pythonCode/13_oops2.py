@@ -15,27 +15,30 @@
 # main.pala()
  
 
-from pprint import pprint
 
-class Country:
-    def __init__(self):
-        self.countries=[
-            {
-                "Country":"India",
-                "Short":"IN",
-                "Code":"91"
-            },
-            {
-                "Country":"Pakistan",
-                "Short":"PAK",
-                "Code":"92"
-            },
-            {
-                "Country":"Nepal",
-                "Short":"NEP",
-                "Code":"977"
-            }
-        ]
+
+# from pprint import pprint
+
+# class Country:
+#     def __init__(self):
+#         self.countries=[
+#             {
+#                 "Country":"India",
+#                 "Short":"IN",
+#                 "Code":"91"
+#             },
+#             {
+#                 "Country":"Pakistan",
+#                 "Short":"PAK",
+#                 "Code":"92"
+#             },
+#             {
+#                 "Country":"Nepal",
+#                 "Short":"NEP",
+#                 "Code":"977"
+#             }
+#         ]
+
 
 #OOPs doesnt recomend this, it recommends inheritance 
 # class Access:
@@ -43,13 +46,13 @@ class Country:
 #         Nation= Country()
 #         pprint(Nation.countries)
 
-class Access(Country):
-    def __init__(self):
-        super().__init__()
-        pprint(self.countries)
+# class Access(Country):
+#     def __init__(self):
+#         super().__init__()
+#         pprint(self.countries)
 
-# Usage
-access = Access()
+# # Usage
+# access = Access()
 
 
 
@@ -60,3 +63,18 @@ access = Access()
 #         pprint(self.countries)
 # country=Access()
 # country.getCountries()
+
+
+class Fun1:
+    def __init__(self):
+        print("hello world")
+        self.__name="pala"
+
+class Fun2(Fun1):
+    # pass
+    def __init__(self):
+        super().__init__() # it will print both.  We use SUPER method in constructor function only
+        print("hello Farhan Pala")
+        print(self._Fun1__name)
+    
+Fun2()  #Prints “Hello World”
