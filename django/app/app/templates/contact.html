@@ -1,5 +1,9 @@
 {% extends 'layout.html' %}
 
+{% block title %}
+    contact 
+{% endblock %}
+
 {% block body %}
 
 <main>
@@ -16,7 +20,7 @@
         <input type="submit">
     </form>
     <!-- <p>
-        Name: {{ request.POST.name }} <br>
+        Name: {{ request.POST.name }} <br>  //request is a dictionary where we access POST method
         Email: {{ request.POST.email }} <br>
         Message: {{ request.POST.message }}
     </p> -->

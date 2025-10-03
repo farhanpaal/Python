@@ -1,5 +1,8 @@
 from django.shortcuts import render
-from util.service import SendMail
+from util.service import SendHtmlMail
+# from util.service import SendPlainMail
+from .models import Enquiry
+
 def Home(request):
     return render(request, 'home.html')
 
@@ -11,7 +14,30 @@ def Contact(request):
         name= request.POST.get('name')
         email=request.POST.get('email')
         message=request.POST.get('message')
-        res=SendMail("enquiry from " + name, message, ['ethical.pala.cyber@gmail.com'])
-        print(res)
+        data={
+            'name':name,
+            'email':email,
+            'message':message
+        }
+        res=SendHtmlMail("from TEFAR",
+                    'mail/enquiry.html',
+                    data,
+                    ['farhan.12345.pala@gmail.com'])
+        if res['success']:
+            enquiry= Enquiry(
+                name=name,
+                email=email,
+                message=message
+            )
+            enquiry.save()
+            return render(request,'success.html')
+        else:
+            return render(request, 'failed.html', {
+                'message':res['message']}
+                )
+
     return render(request, 'contact.html')
 
+
+
+# views.py

@@ -126,8 +126,8 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend' 
-EMAIL_HOST='smtp.gmail.com' 
+EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'  #email sending coding happens in this class
+EMAIL_HOST='smtp.gmail.com'  #here we have to write smtp address, and this is the smtp address of gmail
 EMAIL_HOST_USER='ethical.pala.cyber@gmail.com' 
 EMAIL_HOST_PASSWORD='vyvqwczbqztkjkxh' 
 EMAIL_PORT=587 
