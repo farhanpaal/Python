@@ -1,5 +1,3 @@
-
-
 body {
     background: #f8f9fa;
     font-family: Arial, sans-serif;
@@ -7,10 +5,10 @@ body {
     padding: 0;
 }
 
-main {
+form {
     max-width: 400px;
     margin: 60px auto;
-    background: #fff;
+    background: #dcd8d8;
     padding: 32px 24px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -31,6 +29,8 @@ label {
 
 input[type="name"],
 input[type="mail"],
+input[type="number"],
+input[type="file"],
 textarea {
     width: 100%;
     padding: 8px 10px;

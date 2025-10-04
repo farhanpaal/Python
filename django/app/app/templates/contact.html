@@ -1,24 +1,67 @@
 {% extends 'layout.html' %}
-
+{% load static %}
 {% block title %}
-    contact 
+contact
+{% endblock %}
+
+
+{% block js %}
+<script src="static/js/contact.js"></script>
 {% endblock %}
 
 {% block body %}
 
-<main>
+<main class="d-flex flex-column align-items-center ">
     <h1>Contact Us</h1>
-    <form method="post" action="/contact">
+    <form method="post" action="/contact" enctype="multipart/form-data">
         {% csrf_token %}
-        <label for="name">Full Name</label>
+        <label for="name">Name</label>
         <input type="name" id="name" name="name" placeholder="Enter your full name">
         <label for="email">Email</label>
         <input type="mail" id="email" name="email" placeholder="Enter your email">
+        <label for="mobile">Mobile</label>
+        <input type="number" id="mobile" name="mobile" placeholder="Enter your Mobile">
+        <label for="screenshot">Screenshot</label>
+        <input type="file" id="screenshot" name="screenshot" placeholder="Enter your Screenshot" accept="image/*">
         <label for="message">Message</label>
         <textarea id="message" name="message" placeholder="Enter your message"></textarea>
-        
+
         <input type="submit">
     </form>
+    {% if data|length > 0 %}
+    <table class="w-50 table table-striped">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Screenshot</th>
+            <th>Message</th>
+            <th>Created</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+            {% for item in data %}
+            <tr>
+                <td>{{ item.id}}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.email }}</td>
+                <td>{{ item.mobile }}</td>
+                <td>
+                    <img src="{{ settings.MEDIA_URL }}{{ item.screenshot }}" width="80" alt="">
+                </td>
+                <td>{{ item.message }}</td>
+                <td>{{ item.createdAt }}</td>
+                <td>
+                    <!-- we made here functions to delete or edit, now we will leave it here. Because to delete or edit we have to learn restAPI and that is for other day, currently it will break flow -->
+                    <span class="btn btn-primary" onclick="editRow('{{ item.id }}')">Edit</span>
+                    <span class="btn btn-danger" onclick="deleteRow('{{ item.id }}')">delete</span>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
     <!-- <p>
         Name: {{ request.POST.name }} <br>  //request is a dictionary where we access POST method
         Email: {{ request.POST.email }} <br>
@@ -26,4 +69,3 @@
     </p> -->
 </main>
 {% endblock %}
- 
