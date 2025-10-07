@@ -43,4 +43,5 @@ def SendHtmlMail(subject, template,data, recipient):
             'message': str(e)
         }
     
+    
 # service.py

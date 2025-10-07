@@ -2,3 +2,5 @@ def __lt__(self,other)
 dynamic & static polymorphism
 multi-level & multiple inheritance 
 relational operator
+regular expression
+operation overloading
