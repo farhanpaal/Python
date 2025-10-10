@@ -1,8 +1,11 @@
+
 import Layout from '../shared/layout'
 const Admin= ()=>{
     return(
         <Layout>
-            <h1>This is Admin Page</h1>
+            <h1 style={{
+                fontFamily:'bela-regular '
+            }} >My dashboard</h1>
         </Layout>
     )
 }

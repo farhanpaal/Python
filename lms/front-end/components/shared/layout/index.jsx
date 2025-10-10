@@ -1,12 +1,13 @@
 'use client'
 
 import {Layout, Button, Menu} from 'antd'
+import Logo from '../logo/index'
 import {useState} from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 const {Sider, Content, Header}=Layout
 const {Item} =Menu
 import {DashboardOutlined, VideoCameraOutlined, PicCenterOutlined} from '@ant-design/icons'
+
 
 
 // In antdesign there is already Layout defined, so we wrote here LayoutEl
@@ -48,12 +49,7 @@ const LayoutEl = ({children})=>{  //we destructure children, it will hold the co
             <Layout>
             <Header className="!bg-white flex px-6 justify-between items-center">
                 <div>
-                    <Image
-                        src="/images/logo.png"
-                        width={48}
-                        height={48}
-                        alt="logo"
-                    /> 
+                     <Logo size={32}/>
                 </div>
               <div>
               <Button 
