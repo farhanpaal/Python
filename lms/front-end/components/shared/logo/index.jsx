@@ -8,6 +8,7 @@ const Logo = ({ size = 32 }) => {
       style={{ 
         fontWeight: 700,
         fontSize: size,
+        fontFamily:'bela-semibold'
         
       }}
       icon={
