@@ -13,6 +13,8 @@ Regular expressions are a powerful pattern-matching language used to:
   re.findall()	Returns all matches in a list
   re.sub()	    Replaces text using regex
   re.split()	Splits a string by regex pattern
+  
+match.group() → extracts the exact substring that matched the pattern.
 
 
   regex patterns
