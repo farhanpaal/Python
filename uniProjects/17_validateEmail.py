@@ -7,13 +7,12 @@
 [a-zA-Z0-9.-]+ → Domain name (letters, numbers, dots, and hyphens).
 \. → Literal dot before the domain extension.
 [a-zA-Z]{2,} → Top-level domain (like .com, .org, at least 2 characters).
-$ → End of the string.
+$ → Use this to ensure whole string is matched.
 """
 import re
 
 # Regular expression pattern for validating an email
 email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
-# email= r'^[A-Za-z0-9_.%+-]+@[a-zA-Z0-9.-]+\.[a=zA=z]{2,0}'
 def validate_email(email):
     if re.match(email_pattern, email):
         return True

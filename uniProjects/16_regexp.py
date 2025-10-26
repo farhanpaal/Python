@@ -39,6 +39,8 @@ match.group() → extracts the exact substring that matched the pattern.
     -\d{6} → exactly 6 digits (subscriber number)
     -\d matches any digit 0–9
 
+
+    lookahead means scan what comes after : ?=.*[A-Z] --> means whatever is in braces scan A-Z, if met condition then true
 (?=) - positive lookahead
 (?!) - negative lookahead
 (?<=) - positive lookbehind
@@ -49,6 +51,8 @@ match.group() → extracts the exact substring that matched the pattern.
     Find expression A where expression B precedes: (?<=B)A
     Find expression A where expression B does not precede: (?<!B)A
     \d(?=\sUSD) matches a digit before " USD"
+
+\. consider . as literal dot, i.e., an actual . character in the text npt any symbol or operator.
 """
 import re
 def website():
@@ -80,6 +84,10 @@ def phone():
 def date():
     text = "Today's date is 13-10-2025."
     pattern = r'\b\d{2}-\d{2}-\d{4}\b'
+    # \b ensures your pattern is treated as a “whole word” or token,” not part of a longer string.
+        # \b matches positions, not characters.
+        # At start: must be non-word → word
+        # At end: must be word → non-word
 
     match = re.search(pattern, text)
     print(match.group() if match else "No match")
@@ -88,7 +96,6 @@ def date():
 def time():
     text = "The meeting is at 23:45."
     pattern = r'\b([01]\d|2[0-3]):[0-5]\d\b'  #0,1 or 2, (0,1,2,3) :0,1,2,3,4,5 (0to9)
-
     match = re.search(pattern, text)
     print(match.group() if match else "No match")
 # time()
@@ -117,6 +124,20 @@ def passw():
     pattern = r'^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$' # .* : “match everything (except newlines) until something else stops it.”
                                                         # ?= : positive lookahead
                                                         # {8,} : ensures minimum 8
+    """
+    (?=.*[A-Za-z]) → ensures at least one letter exists anywhere
+    (?=.*\d) → ensures at least one digit exists anywhere
+    [A-Za-z\d]{8,} → ensures total length and allowed characters
+    Together → all rules are enforced.
+    
+    Think of it like a password checklist:
+    At least 1 letter ✅ (lookahead)
+    At least 1 digit ✅ (lookahead)
+    Minimum 8 chars ✅ (main match)
+    Without lookaheads, rule 1 and 2 can’t be guaranteed.
+    """
+
+
     match = re.match(pattern, text)
     print("Strong password" if match else "Weak password")
 # passw()
