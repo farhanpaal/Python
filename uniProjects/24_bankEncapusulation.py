@@ -1,3 +1,5 @@
+# Encapsulation means bundling data and methods that operate on that data within a single unit (class), and restricting direct access to some components.
+
 class Bank:
     def __init__(self, name, balance):
         self.name=name
