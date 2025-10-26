@@ -1,6 +1,8 @@
 'use client'
 import Logo from '../shared/logo'
 import {Form,Button, Input,Divider} from 'antd'
+import 'animate.css';
+import Link from 'next/link'
 import {Image} from 'next/image'
 const {Item} = Form
 const Login =()=>{
@@ -9,12 +11,9 @@ const Login =()=>{
         console.log(values)
     }
 
-
-
-
     return(
         <div className='bg-gray-100 min-h-screen flex items-center justify-center'>
-            <div className='bg-white rounded-lg p-8 md:w-4/12 w-11/12 flex flex-col gap-y-4'>
+            <div className='animate__animated animate__zoomIn animate__faster bg-white rounded-lg p-8 md:w-4/12 w-11/12 flex flex-col gap-y-4'>
                 <div className='flex items-center'>
                     <h1 className='font-semibold text-2xl'>Say Hi.</h1>
                     <Logo/>
@@ -60,6 +59,13 @@ const Login =()=>{
                 >
                     Continue with Facebook
                 </Button>
+                <Divider/>
+                <div className='flex gap-x-2 justify-center' >
+                    Don't have an account?
+                    <Link href="\register" className='text-indigo-900 font-semibold'>
+                       Regester Now
+                    </Link> 
+                </div>
             </div>
         </div>
     )
