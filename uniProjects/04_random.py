@@ -70,4 +70,3 @@ def diceGame():
   print(f"Player1 score: {sum1} \nPlayer2 score: {sum2} ")
   
 diceGame()
-  

@@ -21,7 +21,7 @@ def factorial1():
     b = b + 1
   print(f"The factorial of {number} is {store}")
   
-factorial1()
+# factorial1()
 
 #Method2: Recurssion
 def factorial2():
@@ -35,4 +35,5 @@ def factorial2():
   result = fact(number)
   print(f"The factorial of {number} is {result}")
 
-factorial2()
+# factorial2()
+ 
