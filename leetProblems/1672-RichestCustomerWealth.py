@@ -7,8 +7,8 @@ def wealth():
     print(">> RICHEST CUSTOMER WEALTH CALCULATOR")
     print(">> INSTRUCTIONS : ------------------")
     print("• Enter wealth amounts for each customer across different banks")
-    print("• Press '-1' to finish adding banks for current customer")
-    print("• Press '-2' to stop adding customers and find the richest")
+    print("• Press '-1' to finish adding banks for current customer.")
+    print("• Press '-2' to stop adding customers and find the richest.")
     print(35 * "-")
 
     all_customers = []  # Store all customer wealth data
