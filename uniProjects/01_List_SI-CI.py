@@ -4,8 +4,7 @@ def main():
   ciList =[] 
   list=[]
   i=1
-  
-  # total=int(input("Enter total number of users: "))
+   
   print("BASIC INSTRUCTIONS: \n To end the program enter -1. \n")
   while True:
     try:
@@ -16,7 +15,7 @@ def main():
             raise ValueError("Number of users must be positive.")
         break
     except ValueError as e:
-        print(f"Invalid input: {e}")
+        print(f"Invalid input : {e}")
   
   while len(list)<total:
     try:
