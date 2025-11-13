@@ -4,7 +4,7 @@ mongo=Mongo("Podcast","Motivation")
 
 
 # print(mongo.insert({
-#     "name":"paal Lust",
+#     "name":"paal hh",
 #     "speaker":"jabran",
 #     "category":"self help"
 # })) #here we will insert data in the form of dictionary
