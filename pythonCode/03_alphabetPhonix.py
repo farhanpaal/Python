@@ -17,7 +17,7 @@ def Find(string):
     elif string == 'p': return "for parrot"
     elif string == 'q': return "for queen"
     elif string == 'r': return "for rabbit"
-    elif string == 's': return "for snake"
+    elif string == 's': return "for 🐍snake"
     elif string == 't': return "for tiger"
     elif string == 'u': return "for umbrella"
     elif string == 'v': return "for van"
