@@ -18,3 +18,4 @@ class Solution():
 solution = Solution()
 print(solution.findMaxConsecutiveOnes([0,1,0,0,1,1,1]))
 
+#ans=3
